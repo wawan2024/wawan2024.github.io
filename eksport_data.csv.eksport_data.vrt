@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OGRVRTDataSource>
+    <OGRVRTLayer name="eksport_data-eksport_data">
+        <SrcDataSource relativeToVRT="1">eksport_data.csv</SrcDataSource>
+        <!--Header=False-->
+        <SrcLayer>eksport_data</SrcLayer>
+        <Field name="SRS_ID" src="SRS_ID" type="String"/>
+        <Field name="WADMKK" src="WADMKK" type="String"/>
+        <Field name="WADMPR" src="WADMPR" type="String"/>
+        <Field name="NO" src="NO" type="String"/>
+        <Field name="NAMA ITEM DATA" src="NAMA ITEM DATA" type="String"/>
+        <Field name="KELURAHAN" src="KELURAHAN" type="String"/>
+        <Field name="KECAMATAN" src="KECAMATAN" type="String"/>
+        <Field name="LATITUDE" src="LATITUDE" type="String"/>
+        <Field name="LONGITUDE" src="LONGITUDE" type="String"/>
+        <Field name="TIPE ATM" src="TIPE ATM" type="String"/>
+        <Field name="ALAMAT" src="ALAMAT" type="String"/>
+    </OGRVRTLayer>
+</OGRVRTDataSource>
